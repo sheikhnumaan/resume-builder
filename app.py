@@ -51,7 +51,7 @@ div.stButton > button:first-child:hover {
 """, unsafe_allow_html=True)
 
 # --- Header ---
-st.markdown('<p class="title">🧠 AI Resume & Profile Builder</p>', unsafe_allow_html=True)
+st.markdown('<p class="title">🔱 THE SHEIKH EMPIRE</p>', unsafe_allow_html=True)
 st.markdown('<p class="subtitle">Create polished resumes, cover letters, and LinkedIn bios in seconds 🚀</p>', unsafe_allow_html=True)
 
 # --- Sidebar ---
@@ -163,4 +163,5 @@ if st.button("🚀 Generate Resume & Cover Letter"):
 
         st.download_button("⬇️ Download Cover Letter", cover_letter, "cover_letter.txt")
         st.download_button("⬇️ Download LinkedIn Bio", linkedin_bio, "linkedin_bio.txt")
+
 
