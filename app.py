@@ -5,8 +5,8 @@ from openai import OpenAI
 
 # --- Page Config ---
 st.set_page_config(
-    page_title="AI Resume Builder",
-    page_icon="🧠",
+    page_title="THE SHEIKH EMPIRE",
+    page_icon="🔱",
     layout="wide"
 )
 
@@ -163,3 +163,4 @@ if st.button("🚀 Generate Resume & Cover Letter"):
 
         st.download_button("⬇️ Download Cover Letter", cover_letter, "cover_letter.txt")
         st.download_button("⬇️ Download LinkedIn Bio", linkedin_bio, "linkedin_bio.txt")
+
